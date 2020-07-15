@@ -7,7 +7,7 @@
         "tightenco/collect": "^7.12",
         "eftec/bladeone": "^3.46"
     },
-    "license": "GPL2",
+    "license": "MIT",
     "authors": [{
         "name": "Simon Fremaux",
         "email": "dievardump@gmail.com"
