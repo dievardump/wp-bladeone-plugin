@@ -1,0 +1,21 @@
+{
+    "name": "dievardump/wp-bladeone-plugin",
+    "description": "Plugin enabling Blade(One) syntaxing in wordpress themes",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "^1.9",
+        "tightenco/collect": "^7.12",
+        "eftec/bladeone": "^3.46"
+    },
+    "license": "GPL2",
+    "authors": [{
+        "name": "Simon Fremaux",
+        "email": "dievardump@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "WP_BladeOne\\": "php/src"
+        }
+    },
+    "minimum-stability": "dev"
+}
